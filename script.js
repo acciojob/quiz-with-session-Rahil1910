@@ -82,5 +82,5 @@ btn.addEventListener('click',function(){
     }
   }
   localStorage.setItem("user",count);
-  res.textContent = `Your score is ${count} out of 5`;
+  res.textContent = `Your score is ${count} out of 5.`;
 })
